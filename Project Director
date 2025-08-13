@@ -1,0 +1,37 @@
+ecommerce-project/
+├── package.json
+├── server.js
+├── .env
+├── .gitignore
+├── README.md
+├── public/
+│   ├── index.html
+│   ├── manifest.json
+│   └── robots.txt
+├── src/
+│   ├── App.js
+│   ├── App.css
+│   ├── index.js
+│   ├── components/
+│   │   ├── Header.js
+│   │   ├── Footer.js
+│   │   └── ProductCard.js
+│   ├── pages/
+│   │   ├── HomePage.js
+│   │   └── AdminPage.js
+│   └── context/
+│       └── AppContext.js
+├── models/
+│   ├── User.js
+│   └── Product.js
+├── routes/
+│   ├── userRoutes.js
+│   └── productRoutes.js
+├── controllers/
+│   ├── userController.js
+│   └── productController.js
+├── middleware/
+│   └── authMiddleware.js
+├── config/
+│   └── db.js
+└── netlify.toml
